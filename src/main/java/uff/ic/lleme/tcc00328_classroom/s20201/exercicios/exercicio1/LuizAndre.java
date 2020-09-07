@@ -1,4 +1,4 @@
-package uff.ic.lleme.tcc00328_classroom.exercicios.exercicio1;
+package uff.ic.lleme.tcc00328_classroom.s20201.exercicios.exercicio1;
 
 public class LuizAndre {
 
