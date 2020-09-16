@@ -9,10 +9,10 @@ public class BrunoProença {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Entre com o número que deseja fatorar: ");
 		n = sc.nextInt();
-		while(n>=1) {
+		do{
 			fat *= n;
 			n--;
-		}
+		}while(n>=1);
 		System.out.println("O resultado do fatorial é: " + fat);
 	}
 
