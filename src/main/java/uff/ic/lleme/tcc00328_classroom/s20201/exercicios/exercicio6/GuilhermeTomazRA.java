@@ -5,14 +5,18 @@
  */
 package uff.ic.lleme.tcc00328_classroom.s20201.exercicios.exercicio6;
 
+import java.util.Scanner;
+
 /**
  *
- * @author User
+ * @author GuiTomaz
  */
 public class GuilhermeTomazRA {
     public static void main(String[]args){
-        int numero = 2;
-        double resultado = somatorio(2);
+        Scanner tecla = new Scanner(System.in);
+        System.out.println("Informe um numero n: ");
+        int numero = tecla.nextInt();
+        double resultado = somatorio(numero);
         System.out.println("resultado: " + resultado);
     }
     
