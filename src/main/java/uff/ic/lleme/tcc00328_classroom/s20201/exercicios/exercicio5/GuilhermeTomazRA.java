@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author GuiTomaz
  */
-public class exercicio5 {
+public class GuilhermeTomazRA {
     public static void main(String[]args){
         int num;
         Scanner tecla = new Scanner(System.in);
