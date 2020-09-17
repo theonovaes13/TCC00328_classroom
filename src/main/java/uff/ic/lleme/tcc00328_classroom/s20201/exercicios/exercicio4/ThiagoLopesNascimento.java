@@ -21,18 +21,19 @@ public class ThiagoLopesNascimento {
         int num = in.nextInt();
         int divisor = num - 1;
         boolean teste = false;
-        if (num == 1)   teste = false; //garantir o caso do 1 sem causar problema na divisão
-        else if (num == 2) teste = true; //exceção do 2 por ser par e primo ao mesmo tempo
+        if (num == 1)   teste = true; //garantir o caso do 1 sem causar problema na divisão
+        else if (num == 2) teste = false; //exceção do 2 por ser par e primo ao mesmo tempo
         else if (num > 2){
             if (num % 2 != 0){
                 do{
                     if (num % divisor == 0)     teste = true;
                     divisor --;
-                }while(teste == false || divisor > 2);
+                }while(teste == false && divisor > 2);
             }
+            else teste = true;
         }
         
-        if (teste == false) System.out.println(num + " nao e primo");
+        if (teste == true) System.out.println(num + " nao e primo");
         else System.out.println(num + " e primo");
         
     }
