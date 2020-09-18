@@ -9,7 +9,7 @@ package uff.ic.lleme.tcc00328_classroom.s20201.exercicios.exercicio11;
  *
  * @author fabio
  */
-public class ProdutoDePrimos {
+public class FabioSCPaulo {
     
         public static void main(String[] args) {
             

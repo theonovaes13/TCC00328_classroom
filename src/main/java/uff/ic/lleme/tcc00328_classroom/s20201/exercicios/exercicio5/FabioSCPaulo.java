@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author fabio
  */
-public class Fibonacci {
+public class FabioSCPaulo {
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
         System.out.println("Digite o valor de n: ");

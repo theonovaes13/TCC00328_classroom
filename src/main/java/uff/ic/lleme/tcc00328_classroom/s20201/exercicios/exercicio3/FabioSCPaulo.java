@@ -11,7 +11,7 @@ import java.util.*;
  *
  * @author fabio
  */
-public class MDC {
+public class FabioSCPaulo {
     public static void main(String[] args){
         
         Scanner in = new Scanner(System.in);

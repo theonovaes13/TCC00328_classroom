@@ -9,7 +9,7 @@ import java.util.*;
  *
  * @author fabio
  */
-public class Fatorial {
+public class FabioSCPaulo {
     
        public static void main(String[] args){
     
