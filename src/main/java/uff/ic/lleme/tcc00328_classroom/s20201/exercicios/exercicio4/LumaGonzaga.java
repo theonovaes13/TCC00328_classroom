@@ -8,7 +8,7 @@ public class LumaGonzaga {
             int n, count = 1, div = 0;
                System.out.println("Digite um número inteiro: ");
                 n = tecla.nextInt();
-        if(n <= 0){
+        if(n <= 1){
             System.out.println(n + " Não é número primo");
             System.exit(0);
         }else{
