@@ -11,14 +11,15 @@ package uff.ic.lleme.tcc00328_classroom.s20201.exercicios.exercicio11;
  */
 public class GuilhermeTomazRA {
     public static void main(String[]args){
-        /*
-        2 e o primeiro numero primo e ja sera colocado na variavel 'produtoPrimos', multiplicando pelos outros primos diferentes dele de 1 a 50.
-        */
         long produtoPrimos = prodPrimos(); 
         System.out.println("Resultado = " + produtoPrimos);
     }
     
     public static long prodPrimos(){
+        /*
+        2 e o primeiro numero primo e ja sera colocado na variavel 'produtoPrimos', multiplicando pelos outros primos diferentes dele de 3 a 50.
+        Para nao perder tempo verificando se ele é primo ou nao
+        */
        long result = 2; //2 e o primeiro numero primo
        for(int i = 3;i<50;i++){
            result = result * VerificaPrimo(i);
