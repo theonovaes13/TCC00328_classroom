@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package aula2exercicios;
+package uff.ic.lleme.tcc00328_classroom.s20201.exercicios.exercicio3;
 
 import java.util.*;
 
@@ -11,7 +11,7 @@ import java.util.*;
  *
  * @author fabio
  */
-public class MDC {
+public class FabioSCPaulo {
     public static void main(String[] args){
         
         Scanner in = new Scanner(System.in);

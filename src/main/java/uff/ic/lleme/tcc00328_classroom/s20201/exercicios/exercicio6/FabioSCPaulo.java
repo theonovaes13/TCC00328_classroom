@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author fabio
  */
-public class Series {
+public class FabioSCPaulo {
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
         System.out.println("Defina n>=1: ");

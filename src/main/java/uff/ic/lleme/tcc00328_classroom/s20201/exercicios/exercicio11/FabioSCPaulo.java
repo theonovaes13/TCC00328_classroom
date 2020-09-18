@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package aula2exercicios;
+package uff.ic.lleme.tcc00328_classroom.s20201.exercicios.exercicio11;
 
 /**
  *
  * @author fabio
  */
-public class ProdutoDePrimos {
+public class FabioSCPaulo {
     
         public static void main(String[] args) {
             
