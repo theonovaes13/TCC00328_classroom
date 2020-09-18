@@ -7,12 +7,12 @@ package uff.ic.lleme.tcc00328_classroom.s20201.exercicios.exercicio11;
 
 /**
  *
- * @author User
+ * @author GuiTomaz
  */
 public class GuilhermeTomazRA {
     public static void main(String[]args){
         /*
-        2 e o primeiro numero primo e ja sera colocado na variavel 'prod', multiplicando os outros primos diferentes dele de 1 a 50.
+        2 e o primeiro numero primo e ja sera colocado na variavel 'produtoPrimos', multiplicando pelos outros primos diferentes dele de 1 a 50.
         */
         long produtoPrimos = prodPrimos(); 
         System.out.println("Resultado = " + produtoPrimos);
