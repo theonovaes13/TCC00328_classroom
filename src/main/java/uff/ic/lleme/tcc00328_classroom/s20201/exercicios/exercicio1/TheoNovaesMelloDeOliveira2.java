@@ -4,7 +4,7 @@ package uff.ic.lleme.tcc00328_classroom.s20201.exercicios.exercicio1;
 /**
  *
  */
-public class TheoNovaesMelloDeOliveira {
+public class TheoNovaesMelloDeOliveira2 {
 
     /**
      * @param args the command line arguments
