@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package fibonacci;
+package uff.ic.lleme.tcc00328_classroom.s20201.exercicios.exercicio5;
 import java.util.Scanner;
 /**
  *
  * @author theo
  */
-public class Fibonacci {
+public class TheoNovaesMelloDeOliveira {
 
     /**
      * @param args the command line arguments

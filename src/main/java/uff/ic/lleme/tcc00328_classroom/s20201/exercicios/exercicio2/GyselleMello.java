@@ -4,15 +4,15 @@ import java.util.Scanner;
 public class GyselleMello {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
-        int num, fat = 1;
-        int cont = 1;
+        int num, fat = 1, i = 1, cont = 1;
 
         do{
             System.out.println("Digite um número:");
             num = entrada.nextInt();
             
-            for(int i=1;i<=num;i++){
+            while(i<=num){
                 fat = fat * i;
+                i++;
             }
             
             System.out.println("Fatorial de " + num + " = " + fat);
