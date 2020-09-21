@@ -31,7 +31,7 @@ public class LuccaSabbatini {
         } else if (n == 0 || n == 1) {
             res = 1;
         } else {
-            System.out.println("ERRO: Digite um número natural");
+            System.out.println("ERRO: Digite um número natural.");
             System.exit(0);
         }
         
