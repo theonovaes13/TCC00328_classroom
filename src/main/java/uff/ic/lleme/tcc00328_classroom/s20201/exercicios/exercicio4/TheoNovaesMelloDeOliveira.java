@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package numeroprimo;
+package uff.ic.lleme.tcc00328_classroom.s20201.exercicios.exercicio4;
 import java.util.Scanner;
 /**
  *
  * @author theo
  */
-public class NumeroPrimo {
+public class TheoNovaesMelloDeOliveira {
 
     /**
      * @param args the command line arguments
@@ -19,10 +19,9 @@ public class NumeroPrimo {
         Scanner myObj = new Scanner(System.in);
         System.out.println("Insira o numero a ser testado:\n");
         int numero = myObj.nextInt();
-        int numOriginal = numero;
         int lixo = 2;
         do{
-            if(numero % lixo == 0 && numOriginal != 2) {
+            if(numero % lixo == 0 && numero != 2) {
                 primo = false;
             }
             lixo += 1;
