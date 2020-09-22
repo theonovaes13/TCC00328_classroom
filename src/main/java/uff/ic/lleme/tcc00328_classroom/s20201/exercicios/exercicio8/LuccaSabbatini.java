@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package uff.ic.lleme.tcc00328_classroom.s20201.exercicios.exercicio4;
+package uff.ic.lleme.tcc00328_classroom.s20201.exercicios.exercicio8;
 import java.util.Scanner;
 
 /**
@@ -30,20 +30,17 @@ public class LuccaSabbatini {
     }
     
     public static boolean isPrimo(int n) {        
-        int i = 2;
-        
         switch (n) {
             case 1:
                 return false;
             case 2:
                 return true;
-            default:
-                do {
+            default:        
+                for (int i = 2; i < n / 2 + 1; i++) {
                     if (n % i == 0) {
                         return false;
                     }
-                    i++;
-                } while (i < n / 2 + 1);
+                }
         }
         
         return true;
