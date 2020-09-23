@@ -49,7 +49,6 @@ public class GuilhermeTomazRA {
         for(int i = 1; i<categs.length;i++){
             fim = categs[i];
             if(numero>=ini && numero<=fim){
-                System.out.println("Numero " + numero + "pertence a categoria "+ categoria);
                 return categoria;
             }
             categoria++;
