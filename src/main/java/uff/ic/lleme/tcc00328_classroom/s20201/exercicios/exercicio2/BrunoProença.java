@@ -13,6 +13,9 @@ public class BrunoProença {
 			fat *= n;
 			n--;
 		}while(n>=1);
+		if(n <= 0) {
+			fat = 1;
+		}
 		System.out.println("O resultado do fatorial é: " + fat);
 	}
 
