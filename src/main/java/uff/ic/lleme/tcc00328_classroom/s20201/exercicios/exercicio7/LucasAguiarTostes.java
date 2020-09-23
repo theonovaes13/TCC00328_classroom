@@ -12,7 +12,7 @@ public class LucasAguiarTostes {
 		num2 = 23;
 		resposta = MDC(num1, num2);
 		System.out.println("MDC teste 2: " + resposta);		
-	}
+	}	
 	
 	
 	
