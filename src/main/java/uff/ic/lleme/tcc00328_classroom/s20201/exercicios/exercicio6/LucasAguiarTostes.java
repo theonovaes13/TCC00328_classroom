@@ -5,7 +5,7 @@ public class LucasAguiarTostes {
 		int i=0, soma=0;
 	
 		while (i < n){
-			soma+=4*(Math.pow(-1,i)/(2*i+1));
+			soma+= (double) 4*(Math.pow(-1,i)/(2*i+1));
 			i++;
 			
 		}
