@@ -1,27 +1,21 @@
-package uff.ic.lleme.tcc00328_classroom.s20201.exercicios.exercicio4;
+package uff.ic.lleme.tcc00328_classroom.s20201.exercicios.exercicio8;
 import java.util.Scanner;
 
 public class GyselleMello {
     public static void main(String[] args) {
-        int n, div, primo;
-	
-        div = 2;
-        primo = 1;
+        int n, i, div;
         Scanner entrada = new Scanner(System.in);
 
         System.out.println("Digite o número: ");
         n = entrada.nextInt();
-
-        if (n <= 1)
-            primo = 0;
-
-        while (primo == 1 && div <= n / 2) {
-            if (n % div  == 0)
-                primo = 0;
-            div += 1;
+        
+        div = 0;        
+        for(i=1;i!=n;i++){
+            if(n%i == 0){
+                div++;
+            }
         }
-
-        if (primo == 1)
+        if (div == 1)
             System.out.println(n + " é primo");
         else
             System.out.println(n + " não é primo");

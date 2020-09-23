@@ -16,8 +16,6 @@ public class GabrielBueno {
     
     public static int number;
         
-    public static int result;
-    
     public static void main(String[] args){
         
         Scanner in = new Scanner(System.in);
@@ -26,24 +24,26 @@ public class GabrielBueno {
         
         number = in.nextInt();
         
-        if(number > 0){
+        if(number >= 0){
             
-            result = fat(number);
-        
             System.out.println("O fatorial é: ");
         
-            System.out.println(result);
+            System.out.println(fat(number));
            
         }else{
             
-            System.out.println("Não é possível calcular o fatorial. Informe um número maior que 0.");
+            System.out.println("Não é possível calcular o fatorial. Informe um valor válido.");
             
         }
  
     }
     
     public static int fat(int n){
-                
+        
+        if(n == 0){
+            return 1;
+        }
+        
         while(n != 1){
             res *= n;
             n --;
