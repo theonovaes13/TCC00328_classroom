@@ -11,14 +11,7 @@ package uff.ic.lleme.tcc00328_classroom.s20201.exercicios.exercicio16;
  */
 public class GuilhermeTomazRA {
     public static void main(String[] args){
-        int tabela[][] = new int[][] {                      //Times
-                                        {10, 8, 3, -4, 12}, //0
-                                        {17, 8, 5, 10, 19}, //1
-                                        {10, 8, 3, -5, 11}, // 2
-                                        {11, 8, 3, -1, 15}, //3   
-                                        {19, 8, 6, 13, 23},//4
-        };
-
+        int tabela[][] = new int[][] {{10, 8, 3, -4, 12}, {19, 8, 7, 10, 19}, {10, 8, 3, -5, 11}, {11, 8, 3, -1, 15}, {19, 8, 6, 13, 23}}; 
         int times = 5;
         int vencedor = liderCamp(times, tabela);
         System.out.println("Vencedor: "+ vencedor);
@@ -52,6 +45,7 @@ public class GuilhermeTomazRA {
                }
                lider = i;
                
+               
            }else if(tabela[i][0]==aux[0]){
                //Verifica se PG é igual ao atual lider, se nao for nem igual nem maior, é menor,entao vai pro proximo time
                int k = 2; //Sera usado como indice para o numero de vitorias 
@@ -60,16 +54,22 @@ public class GuilhermeTomazRA {
                    Loop para comparar os campos restantes:V,SG,Gp
                    Se em algum desses campos o time for superior ao atual lider, a troca é feita e o novo lider
                    é atualizado e o loop é encerrado.
-                   */              
+                   */         
+                    
                    if(tabela[i][k]>aux[k]){
+
                        lider = i;
                        for(int c = 0;c<5;c++){
                             aux[c] = tabela[i][c];
+                            
                         }
-                       
+                       break;
+                   }else if(tabela[i][k] == aux[k]){
+                       k++;
+                   }else{
                        break;
                    }
-                   k++;//Vamos para o proximo campo V->SG->GP
+                   //Vamos para o proximo campo V->SG->GP
                }
             }
         }
