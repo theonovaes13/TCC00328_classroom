@@ -1,15 +1,27 @@
 package uff.ic.lleme.tcc00328_classroom.s20201.exercicios.exercicio6;
 
 public class LucasAguiarTostes {
-	public static int formula(int n) {
-		int i=0, soma=0;
+	public static void main(String[] args) {
+		int n = 3;
+		System.out.println(formula(n));
+		
+		n=7;
+		System.out.println(formula(n));
+		
+		n = 10;
+		System.out.println(formula(n));
+		
+	}
+	public static double formula(int n) {
+		int i=0;
+		double soma=0;
 	
 		while (i < n){
-			soma+= (double) 4*(Math.pow(-1,i)/(2*i+1));
+			soma+=  (Math.pow(-1,i))/(2*i+1);
 			i++;
 			
 		}
-		return soma;
+		return 4*soma;
 	}
 
 }
