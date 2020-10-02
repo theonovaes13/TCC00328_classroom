@@ -10,8 +10,6 @@ public class Matricular {
         aluno2.nome = "Lucca";
         Aluno.depto = "IC/UFF";
 
-        aluno2.validarDVCpf();
-
         System.out.println(gabriel.nome);
         System.out.println(aluno2.nome);
         System.out.println(aluno2.depto);
